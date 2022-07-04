@@ -31,7 +31,7 @@
     "description": "Aceite de Girasol Cocinero 1.5 Lt",
     "id": "7790060023684",
     "price": 299,
-    "stock": 0,
+    "stock": 10,
     "unit": "Lt",
     "volume": 1.5
   },
@@ -172,7 +172,7 @@
   },
   {
     "category": "Almacén",
-    "description": "Yerba 4 Flex Mañanita 1 Kg",
+    "description": "Yerba 4 Flex Mañanita paq. x 1 Kg",
     "id": "7790387015317",
     "price": 630,
     "stock": 10,

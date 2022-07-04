@@ -18,16 +18,21 @@ form.onsubmit = (e) => {
     el.textContent = '';
   });
   const errors = validateForm();
-
-  if (Boolean(errors?.length)) {
+  if (Object.keys(errors).length) {
     bugTags.forEach((el) => {
       if (errors[el.id]) el.textContent = errors[el.id];
     });
-  } else {
-    console.log(formData);
+  } else if (!products.find((el) => el.id === formData.id)) {
     products.push(formData);
     localStorage.setItem('products', JSON.stringify(products));
-  }
+    form.reset();
+    for (let key in formData) formData[key] = '';
+  } else
+    Swal.fire({
+      text: 'El producto que intentas cargar ya existe',
+      icon: 'info',
+      confirmButtonText: 'Aceptar',
+    });
 };
 
 form.addEventListener('change', (e) => {
