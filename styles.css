@@ -51,6 +51,15 @@ footer {
   width: 32px;
 }
 
+.card-title {
+  height: 25px;
+  overflow: hidden;
+  transition: height 0.3s ease-in 0.3s;
+}
+.card-title:hover {
+  height: 80px;
+}
+
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
