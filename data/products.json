@@ -1,0 +1,182 @@
+[
+  {
+    "category": "Almacén",
+    "description": "Bizcochitos con Grasa Salados Don Satur 200 Gr",
+    "id": "7795735000328",
+    "price": 107.5,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.2
+  },
+  {
+    "category": "Almacén",
+    "description": "Aceite Mezcla Cocinero 1.5 Lt",
+    "id": "7790070225023",
+    "price": 275,
+    "stock": 10,
+    "unit": "Lt",
+    "volume": 1.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Aceite de Oliva Cocinero 500 Ml",
+    "id": "7790060009329",
+    "price": 427,
+    "stock": 10,
+    "unit": "Lt",
+    "volume": 0.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Aceite de Girasol Cocinero 1.5 Lt",
+    "id": "7790060023684",
+    "price": 299,
+    "stock": 0,
+    "unit": "Lt",
+    "volume": 1.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Aceite de Girasol Cañuelas 900 Cc",
+    "id": "7792180001641",
+    "price": 180,
+    "stock": 10,
+    "unit": "Lt",
+    "volume": 0.9
+  },
+  {
+    "category": "Almacén",
+    "description": "Pate de Foie Swift Lata 90 Gr",
+    "id": "7790360720382",
+    "price": 80,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.09
+  },
+  {
+    "category": "Almacén",
+    "description": "Picadillo de Carne en Lata Swift 90 Gr",
+    "id": "7790360720115",
+    "price": 76,
+    "stock": 5,
+    "unit": "Kg",
+    "volume": 0.09
+  },
+  {
+    "category": "Alimentos congelados",
+    "description": "Hamburguesas de Carne Clasicas Paty 4 Un 320 Gr",
+    "id": "7790670050650",
+    "price": 568,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.32
+  },
+  {
+    "category": "Alimentos congelados",
+    "description": "Hamburguesas de Carne Paty Express 4 Un 276 Gr",
+    "id": "7790670050766",
+    "price": 305,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.276
+  },
+  {
+    "category": "Alimentos congelados",
+    "description": "Boc. de Pollo Reb.con JyQ Granja del Sol 400 Gr",
+    "id": "7790070018748",
+    "price": 612,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.4
+  },
+  {
+    "category": "Alimentos congelados",
+    "description": "Mil. de Soja Espinaca Granja del Sol 330 Gr",
+    "id": "7790070031822",
+    "price": 359,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.33
+  },
+  {
+    "category": "Alimentos congelados",
+    "description": "Arvejas Congeladas Granja del Sol 300 Gr",
+    "id": "7790060007974",
+    "price": 568,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.3
+  },
+  {
+    "category": "Alimentos congelados",
+    "description": "Acelga Congelada Granja Del Sol 500 Gr",
+    "id": "7790070032669",
+    "price": 279,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Fideos Spaghetti Matarazzo 500 Gr",
+    "id": "7790070318640",
+    "price": 127,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Sal Fina en Paquete Celusal 500 Gr",
+    "id": "7790072001014",
+    "price": 75,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Fideos Moños Matarazzo 500 Gr",
+    "id": "7790230033031",
+    "price": 127,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Yerba Mate Suave con Palo Playadito 500 Gr",
+    "id": "7793704000911",
+    "price": 299,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.5
+  },
+  {
+    "category": "Almacén",
+    "description": "Arroz Gallo Oro en caja 1 Kg",
+    "id": "7790070411716",
+    "price": 180,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 1
+  },
+  {
+    "category": "Almacén",
+    "description": "Mayonesa Doypack Natura 950 Gr",
+    "id": "7791866001357",
+    "price": 280,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 0.95
+  },
+  {
+    "category": "Almacén",
+    "description": "Yerba 4 Flex Mañanita 1 Kg",
+    "id": "7790387015317",
+    "price": 630,
+    "stock": 10,
+    "unit": "Kg",
+    "volume": 1
+  }
+]
