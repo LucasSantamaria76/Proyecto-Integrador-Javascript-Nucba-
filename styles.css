@@ -54,7 +54,7 @@ footer {
 .card-title {
   height: 25px;
   overflow: hidden;
-  transition: height 0.3s ease-in 0.3s;
+  transition: height 0.2s ease-in 0.3s;
 }
 .card-title:hover {
   height: 80px;
