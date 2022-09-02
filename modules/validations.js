@@ -14,7 +14,7 @@ export const notValid = (field) => {
         return {
           id: 'El código de barra es requerido',
         };
-      return !/^[0-9]{13,13}$/.test(formData.id) ? { id: 'Formato no válido' } : null;
+      return !/^[0-9]{13,13}$/.test(formData.id) ? { id: 'Formato no válido: El código es de 13 dígitos' } : null;
     },
     description: () =>
       !formData.description.trim().length
@@ -34,9 +34,7 @@ export const notValid = (field) => {
         return {
           price: 'El precio es requerido',
         };
-      return !/^\d*\.?\d{0,2}$/.test(Number(formData.price))
-        ? { price: 'Formato no válido' }
-        : null;
+      return !/^\d*\.?\d{0,2}$/.test(Number(formData.price)) ? { price: 'Formato no válido' } : null;
     },
     unit: () => {
       if (formData.unit === '') return { unit: 'Seleccione una unidad de medida' };
@@ -46,9 +44,7 @@ export const notValid = (field) => {
         return {
           volume: 'El volumen es requerido',
         };
-      return !/^\d*\.?\d{0,2}$/.test(Number(formData.volume))
-        ? { volume: 'Formato no válido' }
-        : null;
+      return !/^\d*\.?\d{0,2}$/.test(Number(formData.volume)) ? { volume: 'Formato no válido' } : null;
     },
   };
   return fields[field]();
