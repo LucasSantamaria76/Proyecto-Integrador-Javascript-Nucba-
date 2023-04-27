@@ -41,12 +41,12 @@
     </nav>
   </header>
 
-  <main class="container-fluid">
-    <div class="row justify-content-center align-items-center h-100">
-      <div class="card shadow col-sm-12 col-md-6 align-items-center mx-2">
+  <main class="container-fluid flex-column mt-2 mb-5">
+    <div class="row justify-content-center">
+      <div class="card shadow col-sm-12 col-md-6 align-items-center mx-2 mb-5 h-100">
         <img src="./assets/mitiendita.png" class="card-img-top w-25" alt="image">
-        <div class="card-body w-100">
-          <h4 class="card-title text-center pb-5">Ingreso de nuevos productos</h4>
+        <div class="card-body">
+          <h4 class="card-title text-center pb-3">Ingreso de nuevos productos</h4>
 
           <form style="font-size: 0.8rem;" novalidate="true">
 
@@ -57,7 +57,7 @@
             </div>
             <p class="text-danger" id="description"></p>
 
-            <div class="row mb-3">
+            <div class="row">
               <div class="col-12 col-sm-7">
                 <div class="input-group input-group-lg">
                   <span class=" input-group-text p-2"><img src="./assets/barcode.svg" alt="Barcode"
@@ -76,7 +76,7 @@
               </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="row">
               <div class="col-12 col-lg-4">
 
                 <input name="stock" type="number" min="0" class="form-control" placeholder="Stock" novalidate="true">
@@ -97,7 +97,7 @@
               </div>
             </div>
 
-            <div class="d-grid gap-2 mb-3">
+            <div class="d-grid gap-2">
               <button class="btn btn-lg btn-secondary" type="submit" id="btn">Guardar producto</button>
             </div>
           </form>
@@ -105,7 +105,7 @@
       </div>
     </div>
   </main>
-  <footer class="container-fluid fixed-bottom bg-dark text-center text-light">
+  <footer class="container-fluid fixed-bottom bg-dark text-center text-light mt-1">
     <p>&copy; 2020–2022 &middot; <a href="#" class="text-info">Terminos y condiciones</a></p>
   </footer>
 
